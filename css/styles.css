@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 2rem;
+    font-size: 1.15rem;
+}
+
+.navbar h1 {
+    font-size: 1.65rem;
+}
+
+
+.navlogo {
+    justify-items: flex-start;
+    margin-left: 2rem;
+}
+
+.navbar a, .navbar h1 {
+    color: black;
+}
+
+.navbar a {
+    transition-duration: 0.3s;
+}
+
+.navbar a:hover {
+    color: #070738;
+    text-shadow: 0rem 0rem 0.5rem #070738;
+}
+
+.navbar a:active {
+    opacity: 0.3;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 6rem;
+}
+
+.card-content {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: italic;
+}
+
+.card-img {
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: #070738;
+    transition-duration: 0.3s;
+}
+
+.card-img:hover {
+    box-shadow: 0rem 0rem 0.75rem #070738;
+}
+
+.name {
+    color: #070738;
+}
+
+.deets {
+    font-size: 1.4rem;
+}
+
+.content {
+    font-size: 1.15rem;
+    line-height: 1.5rem
+}
+
+.projects {
+    display: flex;
+}
