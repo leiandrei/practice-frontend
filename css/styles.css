@@ -7,6 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -32,6 +33,7 @@ body {
 .navlogo {
     justify-items: flex-start;
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 .navbar a, .navbar h1 {
@@ -83,11 +85,27 @@ body {
     font-size: 1.4rem;
 }
 
-.content {
-    font-size: 1.15rem;
-    line-height: 1.5rem
+button {
+    padding: 1rem;
+    background-color: white;
+    border-color: black black;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    border-radius: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition-duration: 0.3s;
 }
 
-.projects {
-    display: flex;
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+.projects  {
+    margin-left: 1rem;
 }
